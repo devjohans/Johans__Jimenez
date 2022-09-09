@@ -1,0 +1,13 @@
+.bg-image{
+    background-image: url(../images/bg-index.jpg);
+    background-repeat: no-repeat;  
+}
+.imagen1
+{ 
+    background-color: rgb(255, 255, 255);
+}
+.borde 
+{
+    border: 3px solid rgb(182, 44, 44);
+    color: aliceblue;
+}

@@ -1,63 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/paragraph.css">
-    <title>Johans_Jimenez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/imagenes.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <title>Matias</title>
 </head>
 <body>
-    
-        <center>
-            <h1>Medidas de CSS</h1>   
-        </center>  
-    
-        
-        <div>
-            <center>
-              <u>
-                <h2>Unidades absolutas</h2>  
-              </u>
-            </center>
-            <p >
-                Una medida indicada mediante unidades absolutas está completamente definida, ya que su valor no depende de otro valor de referencia. A continuación se muestra la lista completa de unidades absolutas definidas por CSS y su significado:
-
-in, pulgadas ("inches", en inglés). Una pulgada equivale a 2.54 centímetros.
-cm, centímetros.
-mm, milímetros.
-pt, puntos. Un punto equivale a 1 pulgada/72, es decir, unos 0.35 milímetros.
-pc, picas. Una pica equivale a 12 puntos, es decir, unos 4.23 milímetros.
-A continuación se muestran ejemplos de utilización de unidades absolutas:
-            </p>
-            <center>
-                <u>
-                  <h2>Unidades relativas</h2>  
-                </u>   
-              </center>
-            <p >
-                La unidades relativas, a diferencia de las absolutas, no están completamente definidas, ya que su valor siempre está referenciado respecto a otro valor. A pesar de su aparente dificultad, son las más utilizadas en el diseño web por la flexibilidad con la que se adaptan a los diferentes medios.
-
-A continuación se muestran las tres unidades de medida relativas definidas por CSS y la referencia que toma cada una para determinar su valor real:
-
-em, (no confundir con la etiqueta <em> de HTML) relativa respecto del tamaño de letra del elemento.
-ex, relativa respecto de la altura de la letra x ("equis minúscula") del tipo y tamaño de letra del elemento.
-px, (píxel) relativa respecto de la resolución de la pantalla del dispositivo en el que se visualiza la página HTML.
-Las unidades em y ex no han sido creadas por CSS, sino que llevan décadas utilizándose en el campo de la tipografía. Aunque no es una definición exacta, la unidad 1em equivale a la anchura de la letra M ("eme mayúscula") del tipo y tamaño de letra del elemento.
-            </p>
-            <center>
-                <u>
-                    <h2>Porcentajes</h2>  
-                </u>
-              </center>
-            <p>
-                El porcentaje también es una unidad de medida relativa, aunque por su importancia CSS la trata de forma separada a em, ex y px. Un porcentaje está formado por un valor numérico seguido del símbolo % y siempre está referenciado a otra medida. Cada una de las propiedades de CSS que permiten indicar como valor un porcentaje, define el valor al que hace referencia ese porcentaje.
-
-Los porcentajes se pueden utilizar por ejemplo para establecer el valor del tamaño de letra de los elementos:
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark size" style="font-family:'Times New Roman', Times, serif;font-size: 24px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/lgo2_preview_rev_1.png" alt="" class="imagen1 borde"style="height: 90px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pagina Princial</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Accesorios
+                </a>
+                <ul class="dropdown-menu despe in:focus"aria-labelledby="navbarScrollingDropdown" style="font-family:'Times New Roman', Times, serif;font-size: 17px;">
+                    <li><a class="dropdown-item" href="https://www.ikea.com/es/es/cat/camas-bm003/";
+                        >Camas</a></li>
+                    <li><hr class="dropdown-divider" style="background-color: rgb(255, 255, 255);"></li>
+                    <li><a class="dropdown-item" href="https://www.ikea.com/es/es/cat/sabanas-10681/">
+                        Sabanas</a></li>
+                        <li><hr class="dropdown-divider" style="background-color: rgb(255, 255, 255);"></li>
+                    <li><a class="dropdown-item" href="https://www.dismac.com.bo/categorias/52-hogar/126-camas-y-colchones/93-almohadas.html">
+                        Almohadas</a></li>
+                        <li><hr class="dropdown-divider" style="background-color: rgb(255, 255, 255);"></li>
+                        <li><a class="dropdown-item" href="https://www.cannoncol.com/categoria/toallas/">
+                            Toallas</a></li>
+                            <li><hr class="dropdown-divider" style="background-color: rgb(255, 255, 255);"></li>
+                        <li><a class="dropdown-item" href="https://www.made.com/es/camas?gclid=ffd9ed1823a3180a70418e02fd6f7e73&gclsrc=3p.ds&">
+                            Outlet</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ropa de Cama
+                </a>
+                <ul class="dropdown-menu despe1 in:focus"aria-labelledby="navbarScrollingDropdown" style="font-family:'Times New Roman', Times, serif;font-size: 17px;">
+                    <li><a class="dropdown-item" href="https://www2.hm.com/es_mx/ninos/nino/ropa.html";
+                        >Ropa de niño</a></li>
+                    <li><hr class="dropdown-divider" style="background-color: rgb(255, 255, 255);"></li>
+                    <li><a class="dropdown-item" href="https://concepto.de/sabana/">
+                        Sabanas</a></li>
+                        <li><hr class="dropdown-divider" style="background-color: rgb(255, 255, 255);"></li>
+                    <li><a class="dropdown-item" href="https://www.burritoblanco.com/55-edredones">
+                        Edredones</a></li>
+                        <li><hr class="dropdown-divider" style="background-color: rgb(255, 255, 255);"></li>
+                        <li><a class="dropdown-item" href="https://listado.mercadolibre.com.mx/protectores-de-cama#!messageGeolocation">
+                            Protectores</a></li>   
+              </li>
+            </ul>
+          </div>
+          <button class="btn-18">
+            <span class="text-container">
+              <span class="text" style="background-color:aliceblue white ;">Registrar</span>
+            </span>
+          </button>
+          <button class="btn-55"><span>Login</span></button>
         </div>
-   <center>
-    <img src="https://i.pinimg.com/originals/32/a4/3d/32a43d20a4c5f4faa56b73b6f2727ca6.jpg">
-   </center>
-</body>
+      </nav>
+      <div id="mySlide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mySlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mySlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mySlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://static.zarahome.net/8/photos4/2022/I/4/1/p/2148/005/710/2148005710_7_1_2.jpg?t=1661356810004&amp;imformat=chrome" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block"style="color: #6d2909;">
+                <h2 style="font-family:'Times New Roman';">EDREDÓN MICROFIBRA CUADROS</h2>
+                <h4>
+                    <p style="color: #0f2561fb;">59,99 €  - 99,99 € </p>
+                </h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.zarahome.net/8/photos4/2022/I/4/1/p/2148/005/802/2148005802_7_1_2.jpg?t=1662451703157&amp;imformat=chrome" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block"style="color: #6d2909;">
+                <h2 style="font-family:'Times New Roman'">EDREDÓN MICROFIBRA CUADROS POLIESTER</h2>
+                <h4>
+                    <p style="color: #0f2561fb;">39,99 €  - 59,99 €  </p>
+                </h4>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img src="https://static.zarahome.net/8/photos4/2022/I/4/1/p/2123/007/811/2123007811_7_1_2.jpg?t=1661960928411&amp;imformat=chrome" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" style="color: #6d2909;">
+                <h2  style="font-family:'Times New Roman'">FUNDA DE COJÍN MOTIVOS GEOMÉTRICOS</h2>
+                <h4>
+                  <p style="color: #0f2561fb;">12,99 € </p>  
+                </h4>
+                
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mySlide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mySlide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </body>
 </html>
