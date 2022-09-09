@@ -16,3 +16,20 @@ body {
 {
    color: #27338e;
 }
+.button{
+    border-color: #ff6600;
+    background-color: #4d148c;
+    color: aliceblue;
+}
+.mymodal {
+    background-image: linear-gradient(180deg, rgb(16, 64, 104), rgb(114, 212, 120));
+    color: rgb(255, 255, 254);
+}
+.in{
+    background-color: #3b2d2d;
+    color: rgb(25, 11, 80);
+}
+.trans
+{
+ text-transform: lowercase;
+}

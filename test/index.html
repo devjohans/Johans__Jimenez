@@ -21,6 +21,7 @@
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Pagina Princial</a>
+
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,14 +63,48 @@
               </li>
             </ul>
           </div>
+    
           <button class="btn-18">
             <span class="text-container">
-              <span class="text" style="background-color:aliceblue white ;">Registrar</span>
+              <span class="text" style="background-color:aliceblue white trans;"data-bs-toggle="modal" data-bs-target="#loginModal">Login</span>
             </span>
           </button>
-          <button class="btn-55"><span>Login</span></button>
+          <button class="btn-55"><span>Crear Cuenta</span></button>
         </div>
       </nav>
+
+      <div class="modal fade" id="loginModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content mymodal">
+                <div class="modal-header">
+                  <a href="https://eledredon.online/">
+
+                  <h5 class="modal-title" id="exampleModalLabel">
+                       Inicio Sesion
+                    </h5>
+                  </a>  
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="" class="col-form-label">Nombre del Usuario:</label>
+                            <input type="text" class="form-control in" placeholder="set your userName here">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Contraseña:</label>
+                            <input type="password" class="form-control in" placeholder="set here your password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn close" data-bs-dismiss="modal" style="font-size:19px ;">ingresar</button>
+                    <button type="button" class="btn success" style="font-size: 19px;">Crear Cuenta</button>
+                </div>
+            </div>
+          </div>
+    </div>
+
       <div id="mySlide" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#mySlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -78,9 +113,12 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
+         
             <img src="https://static.zarahome.net/8/photos4/2022/I/4/1/p/2148/005/710/2148005710_7_1_2.jpg?t=1661356810004&amp;imformat=chrome" class="d-block w-100" alt="...">
+    
             <div class="carousel-caption d-none d-md-block"style="color: #6d2909;">
-                <h2 style="font-family:'Times New Roman';">EDREDÓN MICROFIBRA CUADROS</h2>
+            
+              <h2 style="font-family:'Times New Roman';"class="rounded -3 border-top border-white border-3">EDREDÓN MICROFIBRA CUADROS</h2>
                 <h4>
                     <p style="color: #0f2561fb;">59,99 €  - 99,99 € </p>
                 </h4>
@@ -89,7 +127,8 @@
           <div class="carousel-item">
             <img src="https://static.zarahome.net/8/photos4/2022/I/4/1/p/2148/005/802/2148005802_7_1_2.jpg?t=1662451703157&amp;imformat=chrome" class="d-block w-100 " alt="...">
             <div class="carousel-caption d-none d-md-block"style="color: #6d2909;">
-                <h2 style="font-family:'Times New Roman'">EDREDÓN MICROFIBRA CUADROS POLIESTER</h2>
+                <h2 style="font-family:'Times New Roman'" class="rounded -3 border-top border-white border-3">EDREDÓN MICROFIBRA CUADROS POLIESTER</h2>
+                
                 <h4>
                     <p style="color: #0f2561fb;">39,99 €  - 59,99 €  </p>
                 </h4>
@@ -98,7 +137,7 @@
           <div class="carousel-item">
             <img src="https://static.zarahome.net/8/photos4/2022/I/4/1/p/2123/007/811/2123007811_7_1_2.jpg?t=1661960928411&amp;imformat=chrome" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block" style="color: #6d2909;">
-                <h2  style="font-family:'Times New Roman'">FUNDA DE COJÍN MOTIVOS GEOMÉTRICOS</h2>
+                <h2  style="font-family:'Times New Roman'"class="rounded -3 border-top border-white border-3">FUNDA DE COJÍN MOTIVOS GEOMÉTRICOS</h2>
                 <h4>
                   <p style="color: #0f2561fb;">12,99 € </p>  
                 </h4>
